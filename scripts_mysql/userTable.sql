@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS `production_accounts` (
   	`password` varchar(255) NOT NULL,
   	`email` varchar(100) NOT NULL,
     `account_type` varchar(50) NOT NULL,
-    `mrn` varchar(50) NULL,
+    `mrn` varchar(50) NOT NULL,
     `date_created` datetime NULL,
     `last_login` datetime NULL,
     PRIMARY KEY (`id`)

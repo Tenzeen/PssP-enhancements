@@ -180,7 +180,7 @@ class Medications(db.Model):
 #### BASIC ROUTES WITHOUT DATA PULSL FOR NOW ####
 @app.route('/')
 def index():
-    return render_template('landing.html')
+    return render_template('index.html')
 
 
 @app.route('/login', methods=['GET', 'POST'])

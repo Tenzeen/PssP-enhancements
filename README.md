@@ -1,7 +1,5 @@
 # Patient Self Service Portal Enhancements
 
-## HHA 504 // Week 11 // Assignment 9
-
 In this repository, we build upon our previous iteration of our patient self-service portal with new functionality, particularly account registration and login capability.
 
 ## New Features
